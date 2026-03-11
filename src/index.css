@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  .prose {
+    @apply text-zinc-700 leading-relaxed;
+  }
+  .prose h1 {
+    @apply text-3xl font-bold text-zinc-900 mb-6;
+  }
+  .prose h2 {
+    @apply text-2xl font-semibold text-zinc-900 mt-8 mb-4;
+  }
+  .prose h3 {
+    @apply text-xl font-semibold text-zinc-900 mt-6 mb-3;
+  }
+  .prose p {
+    @apply mb-4;
+  }
+  .prose table {
+    @apply w-full border-collapse my-6;
+  }
+  .prose th {
+    @apply bg-zinc-50 text-zinc-900 font-semibold p-3 text-left border border-zinc-200;
+  }
+  .prose td {
+    @apply p-3 border border-zinc-200;
+  }
+  .prose ul {
+    @apply list-disc pl-6 mb-4;
+  }
+  .prose li {
+    @apply mb-1;
+  }
+}

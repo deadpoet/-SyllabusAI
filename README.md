@@ -2,19 +2,27 @@
 <img width="600" height="238" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# SyllabusAI: Agentic Instructional Design Workflow
 
-This contains everything you need to run your app locally.
+**SyllabusAI** is an AI-powered documentation engine designed to bridge the gap between complex technical requirements and structured instructional content. By leveraging **Gemini 1.5 Pro** and agentic workflows, this application automates the conversion of raw technical specifications into comprehensive, pedagogically sound course agendas.
 
-View your app in AI Studio: https://ai.studio/apps/dac90de8-6a66-4498-b811-00d35bf80c59
+## 🚀 The Vision
+In traditional Instructional Design (using models like **ADDIE** and **SAM**), the transition from "Requirements" to "Syllabus" is often a manual, week-long process. SyllabusAI acts as a force multiplier, reducing this turnaround time from days to seconds while maintaining high technical accuracy and alignment with professional standards.
 
-## Run Locally
+## 🛠️ Technical Architecture
+* **Core Engine:** Powered by Google Gemini 1.5 Pro.
+* **Logic Framework:** Implemented via **Agentic Workflows** to perform persona-based reviews of technical content.
+* **Methodology:** Integrates **Pedagogy** principles and **Bloom’s Taxonomy** to ensure learning objectives are actionable and measurable.
+* **Design Pattern:** Follows a "Docs-as-Code" philosophy, allowing for rapid iteration and version-controlled instructional artifacts.
 
-**Prerequisites:**  Node.js
+## 💻 Getting Started
 
+### Prerequisites
+* **Node.js** (v18 or higher)
+* A **Gemini API Key** from [Google AI Studio](https://aistudio.google.com/)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation & Local Development
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/](https://github.com/)[your-username]/SyllabusAI.git
+   cd SyllabusAI
